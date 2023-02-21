@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}  
+h1 {
+    text-align: center;
+    padding: 50px;
+    height: 40px;
+    width: 100%;
+    color: #000000;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+h4 {
+    float: left;
+    margin-left: 20px;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+h3 {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-family: 'Kaisei HarunoUmi', serif;
+
+}
+
+.logo {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.body-text {
+    display: flex;
+    font-family: 'Kaisei HarunoUmi', serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #B19CD8;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+  
+.heading {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+  
+.nav-links li {
+    list-style: none;
+}
+  
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+  
+.nav-links a:hover:not(.active) {
+    background-color: #AAE5FC;
+}
+  
+.nav-links li a.active {
+    background-color: #AAE5FC;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Kaisei HarunoUmi', serif;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  #image{
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 30px;
+    height: 20vmax;
+    margin-bottom: 10px;
+  }
+  #image2{
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border-radius: 30px;
+    height: 20vmax;
+    margin-bottom: 10px;
+  }
+  
+  .author{
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 12vmax;
+    margin-bottom: 10px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }

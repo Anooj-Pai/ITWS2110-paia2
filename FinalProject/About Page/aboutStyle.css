@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}  
+h1 {
+    text-align: center;
+    padding: 50px;
+    height: 40px;
+    width: 100%;
+    color: #000000;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+h4 {
+    float: left;
+    margin-left: 20px;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+h3 {
+  padding-top: 10px;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-family: 'Kaisei HarunoUmi', serif;
+
+}
+
+.logo {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.body-text {
+    display: flex;
+    font-family: 'Kaisei HarunoUmi', serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #B19CD8;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+  
+.heading {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+  
+.nav-links li {
+    list-style: none;
+}
+  
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+  
+.nav-links a:hover:not(.active) {
+    background-color: #AAE5FC;
+}
+  
+.nav-links li a.active {
+    background-color: #AAE5FC;
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    padding: 0 5px;
+  }
+
+.column2 {
+    float: left;
+    width: 33.3%;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    padding: 0 5px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #E6D1F2;
+    border-radius: 15px;
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 10px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    font-family: 'Kaisei HarunoUmi', serif;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: rgba(88, 0, 67, 0.326);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .button:hover {
+    color: white;
+  }
+
+  .image-center {
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50px;
+    height: 20vmax;
+  }
+
+  .text-center {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: smaller;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .project-center {
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 20vmax;
+  }
+
+  #contactInfo {
+    border-top: 2px solid #AAE5FC;
+    border-bottom: 2px solid #AAE5FC;
+    padding: 4px 0 4px 0;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+  #contactInfo li {
+      display: inline;
+      list-style: none;
+      margin: 0 0.25em 0 0.25em;
+      font-size: medium;
+  }
+
+  .line {
+    border-top: 2px solid #AAE5FC;
+    margin-top: 10px;
+  }
+
+  #executiveSum {
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    white-space: normal;
+    font-size: 15px;
+    padding-right: 100px;
+  }
+
+  .description {
+    margin-left: 150px;
+    margin-top: 0px;
+    font-size: 15px;
+    padding-right: 100px;
+  }
+
+  .title-res {
+    margin-left: 150px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #B19CD8;
+  }
+
+  .image-resume {
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 50%;
+    height: 300px;
+  }
+
+  .block{
+    background-color: #E6D1F2;
+    padding-bottom: 10px;
+  }
+
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #AAE5FC;
+    background-color: transparent;
+    text-decoration: underline;
+  }
