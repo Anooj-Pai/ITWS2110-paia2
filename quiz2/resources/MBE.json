@@ -1,0 +1,57 @@
+{
+  "MBE": {
+    "lectures": [
+      {
+        "title": "Introduction",
+        "description": "Modern Binary Exploitation (CSCI 4967/ITWS 4967) Fall 2022",
+        "link": "https://docs.google.com/presentation/d/1XPqoocF5CX0g2PPVjINbblczLPBoVMQJCTbnVTOrbR4/edit?usp=sharing"
+      },
+      {
+        "title": "Reverse Engineering",
+        "description": "Have you tried reversing it?",
+        "link": "https://docs.google.com/presentation/d/1njsyW0uWA4TKp1B-8vtEOFuNxsBuhxmY4EEt_x5pi7o/edit?usp=sharing"
+      },
+      {
+        "title": "Memory Corruption",
+        "description": "Memory Can Corrupt, It Sucks",
+        "link": "https://docs.google.com/presentation/d/1avKXYm4CoxWyK93gxyJVcawbox8JUyIGs0wNNwHuhYg/edit?usp=sharing"
+      },
+      {
+        "title": "Shellcoding",
+        "description": "Introduction to Shell",
+        "link": "https://docs.google.com/presentation/d/1CbZQjUoGFJeID5Tc5j2Ez0IkhFf3Lanhw3WTiiNdGWI/edit?usp=sharing"
+      },
+      {
+        "title": "Stack Cookies",
+        "description": "COOOKIESSS",
+        "link": "https://docs.google.com/presentation/d/1vaRbpP0jNr245BMAqjR_0IkAiSZVAM9LteR2Tu4mNLk/edit?usp=sharing"
+      },
+      {
+        "title": "Data Execution Prevention & Return Oriented Programming",
+        "description": "Data Execution Prevention & Return Oriented Programming",
+        "link": "https://docs.google.com/presentation/d/1mFhnVrPVt8TiFcEFqCIXUGePWQis5k8ossX-A0uuz6E/edit?usp=sharing"
+      },
+      {
+        "title": "ASLR",
+        "description": "It must be unexploitable.Confirmed unsolvable.",
+        "link": "https://docs.google.com/presentation/d/1GkPEr_IYfMW4ISOLeVF0IGGyM5G8NQKqlwaCLKSAPGU/edit?usp=sharing"
+      },
+      {
+        "title": "Advanced defenses",
+        "description": "The “blue team” side of our exploit toolbox",
+        "link": "https://docs.google.com/presentation/d/1NNuxVy220xdbuaa7e7njF-GC4sRB5Z8QM6ZMKyzXZcg/edit?usp=sharing"
+      },
+      {
+        "title": "Heap Exploitation",
+        "description": "malloc, free",
+        "link": "https://docs.google.com/presentation/d/1m_Oc1GuOp20cttQ3l2r-jNTgU9xh9rzjZJLOS19ziHc/edit?usp=sharing"
+      },
+      {
+        "title": "More Types of Bugs",
+        "description": "Some Cool Bug Classes",
+        "link": "https://docs.google.com/presentation/d/1EXdzSb38NDFuq1YP3EPs2IThOu1LaPkAl_0sbEyB3S8/edit?usp=sharing"
+      }
+    ],
+    "labs": []
+  }
+}
